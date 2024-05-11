@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categoria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
    
@@ -22,7 +22,19 @@
             <h3>Habitos Saludables de Alimentacion</h3>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing <br> Alias in quis enim autem voluptatibus reprehenderit<br>  molestiae velit hic illo praesentium eos quidem nihil <br> aliquid voluptatum necessitatibus, deleniti amet dolorum explicabo.
             </p>
-            <a href="https://youtu.be/sPa3iT3cetQ?si=Tzi2TYkEIDAmzBLk">ver mas</a>
+
+            <button type="button">Abrir </button>
+
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <button type="button" onclick="window.location.href = 'https://youtu.be/sPa3iT3cetQ?si=Tzi2TYkEIDAmzBLk'" class="btn btn-secondary">Ir a YouTube</button>
+                </div>
+              </div>
+
+           
+
+
         </div>
     </div>
 
@@ -65,7 +77,8 @@
 
 
 </div>
-<div id="parav"><a id="parav"  href="index.html"  > <p id="paranav">Volver</p></a></div>
+    </div><button type="button" onclick="window.location.href = 'index.html'" class="btn btn-secondary">Volver</button>
+
 
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
